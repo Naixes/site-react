@@ -1,0 +1,32 @@
+{
+  "name": "site-react",
+  "version": "1.0.0",
+  "description": "技术栈",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naixes/site-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naixes/site-react/issues"
+  },
+  "homepage": "https://github.com/Naixes/site-react#readme",
+  "devDependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "recoil": "^0.3.1",
+    "typescript": "^4.3.5"
+  }
+}
