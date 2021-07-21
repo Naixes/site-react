@@ -25,7 +25,14 @@
 ```cmd
 npm init -y
 tsc --init
+# 第三方包
 npm i react react-dom react-router-dom recoil axios typescript
-npm i webpack webpack-cli -D
+npm i webpack webpack-cli scripty webpack-dev-server yargs-parser 
+@babel/core @babel/preset-env @babel/preset-react babel-loader @babel/preset-typescript
+postcss-loader postcss-preset-env css-loader mini-css-extract-plugin optimize-css-assets-webpack-plugin clean-webpack-plugin cssnano
+@types/react @types/react-router-dom @types/react-dom
+html-webpack-plugin
+-D
+chmod -R u+rx ./scripts
 ```
 
